@@ -1,0 +1,30 @@
+{
+  "name": "naive-blog",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/mockjs": "^1.0.6",
+    "@vicons/antd": "^0.12.0",
+    "axios": "^0.27.2",
+    "less": "^4.1.2",
+    "mockjs": "^1.1.0",
+    "naive-ui": "^2.29.0",
+    "path": "^0.12.7",
+    "pinia": "^2.0.14",
+    "socket.io-client": "^4.5.1",
+    "vite-plugin-mock": "^2.9.6",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
